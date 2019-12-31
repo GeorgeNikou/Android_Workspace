@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/justdoesit">
+
+    <ImageView
+        android:id="@+id/image_colorBPc"
+        android:layout_width="81dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_deleteBPc"
+        app:srcCompat="@drawable/squaregreen" />
+
+    <ImageView
+        android:id="@+id/btn_deleteBPc"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cancelBPc"
+        app:srcCompat="@drawable/delete" />
+
+    <ImageView
+        android:id="@+id/btn_cancelBPc"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/cancel" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="830dp"
+        android:layout_height="359dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="8dp"
+        android:text="Etiam odio justo, efficitur efficitur velit a, accumsan accumsan lorem. Sed quis eros id augue vehicula consectetur. Quisque volutpat turpis ornare enim dapibus sodales. Sed lobortis dui nisi, id semper ante vestibulum ut. Donec elementum ante velit, vel viverra dolor venenatis sit amet. Phasellus tempus augue vulputate tellus consectetur, in blandit leo aliquet. Mauris rutrum eros vestibulum purus rutrum pretium. Praesent vel fringilla diam, quis hendrerit turpis. Phasellus pretium, dolor et hendrerit vulputate, justo ante maximus felis, ac ultrices felis ante nec metus. In hac habitasse platea dictumst. Nulla viverra, sem id ultrices sodales, magna quam lacinia massa, ac fermentum urna nibh aliquam lorem. Fusce feugiat odio tincidunt maximus scelerisque. Duis et velit id velit tincidunt congue. Maecenas nec libero lacus."
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
